@@ -12,3 +12,5 @@ RUN pip install --no-cache-dir --upgrade -r /web/requirements.txt
 COPY ./app  /web/app
 
 CMD ["fastapi","run","main.py"]
+
+
